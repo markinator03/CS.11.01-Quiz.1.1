@@ -3,10 +3,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-Scanner scanner = new Scanner(System.in);
+Scanner scanner;
 int age;
 String firstName;
 String favFood;
+scanner = new Scanner(System.in);
 System.out.println("Enter your age");
 age = scanner.nextInt();
 System.out.println("Enter your first name");
